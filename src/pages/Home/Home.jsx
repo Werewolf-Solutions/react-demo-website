@@ -10,13 +10,19 @@ export default function Home() {
         <h1>This is a demo to showcase Werewolf Solutions API usage</h1>
         <p>
           Please checkout the{" "}
-          <a href="https://github.com/Werewolf-Solutions/react-demo-website">
+          <a
+            href="https://github.com/Werewolf-Solutions/react-demo-website"
+            target="_blank"
+          >
             github repo
           </a>
         </p>
         <p>
-          Visit <a href="https://werewolf.solutions/">Werewolf Solutions</a> to
-          make an account and create your own business
+          Visit{" "}
+          <a href="https://werewolf.solutions/" target="_blank">
+            Werewolf Solutions
+          </a>{" "}
+          to make an account and create your own business
         </p>
         <p>
           Go to the <Link to={"/shop"}>shop</Link> to see live payments
