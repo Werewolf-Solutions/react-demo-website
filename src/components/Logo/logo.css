@@ -1,0 +1,8 @@
+.logo {
+  height: 50px;
+}
+
+.logo-a,
+.logo-a:hover {
+  background-color: transparent;
+}

@@ -1,0 +1,43 @@
+.header {
+  padding: 10px 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sign-out-button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.account {
+  position: relative;
+  display: inline-block;
+}
+
+.anchor {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  transform: translateX(-50%);
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.account:hover .tooltip {
+  display: block;
+}
